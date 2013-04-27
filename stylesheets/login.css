@@ -71,25 +71,28 @@ h1, h2, h3, h4, h5{font-weight:400; margin:0; padding:0}
 
 .form span.but button{
 background-color: #ECECEC;
-    background-image: linear-gradient(#F4F4F4, #ECECEC);
-    border: 1px solid #D4D4D4;
-    border-radius: 0.2em 0.2em 0.2em 0.2em;
-    color: #333333;
-    cursor: pointer;
-    display: inline-block;
-    font: 11px sans-serif;
-    margin: 0;
-    outline: medium none;
-    overflow: visible;
-    padding: 0.5em 1em;
-    position: relative;
-    text-decoration: none;
-    text-shadow: 1px 1px 0 #FFFFFF;
-    white-space: nowrap;
-
+background-image: linear-gradient(#F4F4F4, #ECECEC);
+border: 1px solid #D4D4D4;
+border-radius: 0.2em 0.2em 0.2em 0.2em;
+color: #333333;
+cursor: pointer;
+display: inline-block;
+font: 11px sans-serif;
+margin: 0 5px;
+outline: medium none;
+overflow: visible;
+padding: 0.5em 2em;
+position: relative;
+text-decoration: none;
+text-shadow: 1px 1px 0 #FFFFFF;
+white-space: nowrap;
 }
 
-.form span.but button:hover {background: url("http://api.yhtheme.tk/images/greyishBtn.png") repeat-x scroll 0 -25px transparent; color:#333;}
+.form span.but button:hover {
+color: #333333;
+font-weight:bold;
+font: 12px sans-serif;
+}
 
 form{padding:0}
 
