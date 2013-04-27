@@ -37,7 +37,7 @@ h1, h2, h3, h4, h5{font-weight:400; margin:0; padding:0}
 
 #topNav{display:block; height:36px}
 
-.fixed{background:url(http://api.yhtheme.tk/images/topNav.png) repeat scroll 0 0 transparent; border-bottom:1px solid #FFF; color:#EEE; position:fixed; width:100%; z-index:999}
+.fixed{background:url(http://api.yhtheme.tk/images/topNav.png) repeat scroll 0 0 transparent; color:#EEE; position:fixed; width:100%; z-index:999}
 
 .backTo a{border-left:1px solid #2F2F2F; border-right:1px solid #2F2F2F; color:#EEE; float:left; font-size:11px; margin:0; padding:0}
 
@@ -110,7 +110,7 @@ bottom: 35pximportant;
 right: 580pximportant;
 }
 
-#footer{background:url(http://api.yhtheme.tk/images/topNav.jpg) repeat scroll 0 0 transparent; bottom:0; clear:both; color:#EEE; margin-top:42px; position:absolute; width:100%}
+#footer{background:url(http://api.yhtheme.tk/images/topNav.png) repeat scroll 0 0 transparent; bottom:0; clear:both; color:#EEE; margin-top:42px; position:absolute; width:100%}
 
 #footer span{color:#696969; display:block; font-size:11px; padding:9px 5px}
 
