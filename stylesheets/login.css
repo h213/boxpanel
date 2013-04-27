@@ -1,0 +1,236 @@
+@import url(http://fonts.googleapis.com/css?family=Metrophobic);
+@import url(http://fonts.googleapis.com/css?family=Nunito);
+@import url(http://fonts.googleapis.com/css?family=Sintony);
+html, body{height:100%!important; min-height:100%}
+
+body, form{margin:0; padding:0}
+
+body{
+  background: url("http://cloud.h213.me/images/bodyBg.jpg") repeat scroll 0 0 transparent;
+    color: #424242;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    line-height: 20px;
+    margin: 0;
+    min-height: 100%;
+    padding: 0;
+    position: relative;
+}
+
+div, input, textarea, select{color:#737373; font-family:arial; font-size:12px; position:relative}
+
+input, textarea, select{background:none repeat scroll 0 0 #FFF; border:1px solid #D5D5D5; font-family:Arial,Helvetica,sans-serif; font-size:11px; width:100%; color:#000; vertical-align:middle; margin:0}
+
+a{color:#FFF; outline:medium none; text-decoration:none}
+
+a:hover{color:#EDEDED; text-decoration:underline}
+
+h1, h2, h3, h4, h5{font-weight:400; margin:0; padding:0}
+
+#start{height:100%; min-height:600px; min-width:1003px; width:100%}
+
+#bef-main{min-height:100%; overflow:hidden; width:100%}
+
+#main{height:509px; position:absolute; top:50%; width:100%; margin:0 auto}
+
+.wrapper{width:940px; margin:auto;font-family: 'Sintony', sans-serif;}
+
+#topNav{display:block; height:36px}
+
+.fixed{background:url(http://cloud.h213.me/images/topNav.jpg) repeat scroll 0 0 transparent; border-bottom:1px solid #FFF; color:#EEE; position:fixed; width:100%; z-index:999}
+
+.backTo a{border-left:1px solid #2F2F2F; border-right:1px solid #2F2F2F; color:#EEE; float:left; font-size:11px; margin:0; padding:0}
+
+.userNav a{border-left:1px solid #2F2F2F; border-right:1px solid #2F2F2F; color:#EEE; float:right; font-size:11px; margin:0; padding:0}
+
+.fix{clear:both}
+
+.loginWrapper{background:none repeat scroll 0 0 #FAFAFA; border:1px solid #D5D5D5; border-radius:2px; display:block; left:50%; position:absolute; top:45%; border-color:#D5D5D5; margin:-106px 0 0 -160px; box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2) inset;}
+
+.loginLogo{display:block; height:44px; left:35%; margin-left:-95px; position:absolute; top:-35%; width:190px}
+
+.head{background:url(http://cloud.h213.me/images/leftNavBg.png) repeat-x scroll 0 0 #EFEFEF; border-radius:2px 2px 0 0; border-bottom:1px solid #D5D5D5; height:80px; position:relative}
+
+.form{background:url(images/form.png) no-repeat scroll 0 0 transparent; height:195px; overflow:auto; width:310px; margin:0}
+
+.form .logo{height:58px; text-align:center; margin:23px auto 43px}
+
+.form table{border-collapse:collapse; width:100%}
+
+.form tr{border-bottom:1px solid #E7E7E7; position:relative; padding:15px 0}
+
+.form td{color:#424242; font-size:12px; font-weight:700; font-family:Metrophobic,sans-serif; padding:10px 5px; text-align: center;}
+
+.form input{padding:1px 5px 2px}
+
+.form input.txt{width:180px; height:25px; border-radius: 2px 2px 2px 2px;}
+
+.form select{width:192px}
+
+.form span.but{display:inline-block; left: 60px; position: relative;}
+
+.form span.but button{background: url("http://cloud.h213.me/images/greyishBtn.png") repeat-x scroll 0 0 transparent; font-size: 11px; border: 1px solid #4F5A68; border-radius:3px 3px 3px 3px; color:#FFFFFF; height:25px; margin:6px 0 0 15px; padding:0 10px 0 15px}
+
+.form span.but button:hover {background: url("http://cloud.h213.me/images/greyishBtn.png") repeat-x scroll 0 -25px transparent; color:#333;}
+
+form{padding:0}
+
+.iUser{background:url(http://cloud.h213.me/images/user.png) no-repeat scroll 12px center transparent}
+
+.head h5{float:left; font-weight:400; color: #333333; font-size:14px; padding:9px 12px 9px 35px}
+
+.tac{text-align:center}
+
+.tar{text-align:right}
+
+.tal{text-align:left}
+
+#foot{padding-top:13px; text-align:right; width:955px; margin:0 auto}
+
+ul.errors{font-size:.7em; list-style-type:none; margin:0; padding:0}
+
+div.msg a.close{display:none}
+
+div.msg h5{color:#000; font-size:15px; font-weight:700}
+
+div.form .info h3, div.form .error h3, div.form .success h3, div.form .info p, div.form .error p, div.form .success p{color:red; font-size:.8em; text-align:center; margin:0 10px}
+
+.jGrowl-notification .message{font-size:.95em; height:20px; padding-left:36px; text-align:left}
+
+#jGrowl div.jGrowl-error{background:linear-gradient(to bottom, #DD5952 0px, #BC3E33 100%) repeat scroll 0 0 transparent; bottom: 150px; height: 20px; right: 582px; width: 100%; margin: 3px; border-radius: 2px 2px 2px 2px;}
+
+#jGrowl div.jGrowl-error .message{ background: url("http://cloud.h213.me/images/exclamation.png") no-repeat scroll left top 8px transparent; color: #FFFFFF; display: inline-block; font-size: 11px; height: 40px; position: relative;}
+
+#jGrowl div.jGrowl-success .message{background:url(http://cloud.h213.me/images/accept.png) no-repeat scroll left top transparent; color:#3C5A01; position:relative}
+
+#jGrowl div.jGrowl-success{background-color:#EFFFB9}
+
+bottom-right jGrowl {
+bottom: 35pximportant;
+right: 580pximportant;
+}
+
+#footer{background:url(http://cloud.h213.me/images/topNav.jpg) repeat scroll 0 0 transparent; bottom:0; clear:both; color:#EEE; margin-top:42px; position:absolute; width:100%}
+
+#footer span{color:#696969; display:block; font-size:11px; padding:9px 5px}
+
+#footer span a{color:#EEE}
+
+.backTo, .userNav{background:none repeat scroll 0 0 transparent; border:0 none; font-size:100%; outline:0 none; vertical-align:baseline; margin:0; padding:0}
+
+.backToDash, .userNavDash{text-align:center; margin:10px}
+
+.backTo a:hover, .userNav a:hover{background:none repeat scroll 0 0 #212121}
+
+.backTo span, .userNav span{display:block; float:left; padding:10px 14px 8px 8px}
+
+.backTo img, .userNav img{display:block; float:left; margin:15px 0 0 14px}
+
+.ipvisitor {
+float: right;
+margin: auto;
+font-family: 'Sintony', sans-serif;
+}
+.userNav {
+    float: right;
+    font-size: 11px;
+    position: relative;
+    z-index: 6000;
+}
+.userNav .lastNav {
+    background: url("../images/navSep.png") repeat-y scroll 0 0 transparent;
+    height: 36px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 2px;
+}
+.userNav ul {
+    margin-right: 2px;
+}
+.userNav ul li {
+    border-right: 1px solid #2F2F2F;
+    cursor: pointer;
+    display: inline;
+    float: left;
+    position: relative;
+}
+.userNav ul li:first-child {
+    border-left: 1px solid #2F2F2F;
+}
+.userNav ul li a {
+    color: #EEEEEE;
+    display: block;
+    float: left;
+    text-decoration: none;
+}
+.userNav ul li:hover, .selected {
+    background: none repeat scroll 0 0 #212121;
+}
+.userNav ul li span {
+    display: block;
+    float: left;
+    padding: 8px 14px 8px 8px;
+}
+.userNav ul li img {
+    display: block;
+    float: left;
+    padding: 13px 2px 11px 14px;
+}
+.userNav ul li ul {
+    background: none repeat scroll 0 0 #2F2F2F;
+    border: 1px solid #1D1D1D;
+    display: none;
+    left: -1px;
+    margin-top: 0;
+    padding: 0 1px 1px;
+    position: absolute;
+    top: 35px;
+    z-index: 100;
+}
+.userNav ul li ul li {
+    background: none repeat scroll 0 0 #212121;
+    border-bottom: 1px solid #141414;
+    border-right: medium none;
+    border-top: 1px solid #2F2F2F;
+    display: block;
+    float: none;
+}
+.userNav ul li ul li:first-child {
+    border-left: medium none !important;
+}
+.userNav ul li ul li a {
+    color: #C5C5C5;
+    float: none;
+    font-size: 11px;
+    font-weight: normal;
+    padding: 6px 10px 7px 36px;
+    text-transform: none;
+    width: 100px;
+}
+.userNav ul li ul li a:hover {
+    color: #A4A4A4;
+    font-weight: normal;
+}
+.userNav ul li ul li:hover {
+    background: none repeat scroll 0 0 #1D1D1D !important;
+}
+.userNav ul li span {
+    display: none;
+}
+.userNav ul li img {
+    margin: 0;
+    padding: 13px 14px 11px;
+}
+.userNav ul li ul {
+    left: auto;
+    right: -3px;
+}
+
+fieldset {
+border-style: none;
+}
+
+api_input  {
+
+}
