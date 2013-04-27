@@ -1,4 +1,1 @@
-$ dig www.yhtheme.tk +nostats +nocomments +nocmd
-# ;www.yhtheme.tk.                 IN      A
-# api.yhtheme.tk.          3592    IN      CNAME   h213.github.io.
-# h213.github.io.      43192   IN      A       204.232.175.78
+api.yhtheme.tk
