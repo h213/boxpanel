@@ -117,7 +117,7 @@ div.form .info h3, div.form .error h3, div.form .success h3, div.form .info p, d
 
 .jGrowl-notification .message{font-size:.95em; height:20px; padding-left:36px; text-align:left}
 
-#jGrowl div.jGrowl-error{background:linear-gradient(to bottom, #DD5952 0px, #BC3E33 100%) repeat scroll 0 0 transparent; bottom: 150px; height: 20px; right: 582px; width: 100%; margin: 3px; border-radius: 2px 2px 2px 2px;}
+#jGrowl div.jGrowl-error{background:linear-gradient(to bottom, #DD5952 0px, #BC3E33 100%) repeat scroll 0 0 transparent; height: 20px; width: 100%; margin: 3px; border-radius: 2px 2px 2px 2px;}
 
 #jGrowl div.jGrowl-error .message{ background: url("http://api.yhtheme.tk/images/exclamation.png") no-repeat scroll left top 8px transparent; color: #FFFFFF; display: inline-block; font-size: 11px; height: 40px; position: relative;}
 
@@ -126,8 +126,9 @@ div.form .info h3, div.form .error h3, div.form .success h3, div.form .info p, d
 #jGrowl div.jGrowl-success{background-color:#EFFFB9}
 
 bottom-right jGrowl {
-bottom: 35pximportant;
-right: 580pximportant;
+
+bottom: 300px;
+right: 582px;
 }
 
 #footer{background:url(http://api.yhtheme.tk/images/topNav.png) repeat scroll 0 0 transparent; bottom:0; clear:both; color:#EEE; margin-top:42px; position:absolute; width:100%}
