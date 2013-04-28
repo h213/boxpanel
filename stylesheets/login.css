@@ -6,15 +6,14 @@ html, body{height:100%!important; min-height:100%}
 body, form{margin:0; padding:0}
 
 body{
-  background: url("http://api.yhtheme.tk/images/bg.png") repeat scroll 0 0 transparent;
-    color: #424242;
-    font-family: Arial,Helvetica,sans-serif;
-    font-size: 12px;
-    line-height: 20px;
-    margin: 0;
-    min-height: 100%;
-    padding: 0;
-    position: relative;
+background-size: 100% auto !important;
+font-family: Arial,Helvetica,sans-serif;
+font-size: 12px;
+line-height: 20px;
+margin: 0;
+min-height: 100%;
+padding: 0;
+position: relative;
 }
 
 div, input, textarea, select{color:#737373; font-family:arial; font-size:12px; position:relative}
