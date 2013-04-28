@@ -16,7 +16,7 @@ padding: 0;
 position: relative;
 }
 
-div, input, textarea, select{color:#737373; font-family:arial; font-size:12px; position:relative}
+div, input, textarea, select{color:#fff; font-family:arial; font-size:12px; position:relative}
 
 input, textarea, select{background:none repeat scroll 0 0 #FFF; border:1px solid #D5D5D5; font-family:Arial,Helvetica,sans-serif; font-size:11px; width:100%; color:#000; vertical-align:middle; margin:0}
 
@@ -38,9 +38,9 @@ h1, h2, h3, h4, h5{font-weight:400; margin:0; padding:0}
 
 .fixed{background:url(http://api.yhtheme.tk/images/topNav.png) repeat scroll 0 0 transparent; color:#EEE; position:fixed; width:100%; z-index:999}
 
-.backTo a{border-left:1px solid #2F2F2F; border-right:1px solid #2F2F2F; color:#EEE; float:left; font-size:11px; margin:0; padding:0}
+.backTo a{color:#EEE; float:left; font-size:11px; margin:0; padding:0}
 
-.userNav a{border-left:1px solid #2F2F2F; border-right:1px solid #2F2F2F; color:#EEE; float:right; font-size:11px; margin:0; padding:0}
+.userNav a{color:#EEE; float:right; font-size:11px; margin:0; padding:0}
 
 .fix{clear:both}
 
@@ -132,7 +132,7 @@ right: 580pximportant;
 
 #footer{background:url(http://api.yhtheme.tk/images/topNav.png) repeat scroll 0 0 transparent; bottom:0; clear:both; color:#EEE; margin-top:42px; position:absolute; width:100%}
 
-#footer span{color:#696969; display:block; font-size:11px; padding:9px 5px}
+#footer span{color:#fff; display:block; font-size:11px; padding:9px 5px}
 
 #footer span a{color:#EEE}
 
