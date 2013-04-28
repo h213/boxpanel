@@ -126,9 +126,8 @@ div.form .info h3, div.form .error h3, div.form .success h3, div.form .info p, d
 #jGrowl div.jGrowl-success{background-color:#EFFFB9}
 
 bottom-right jGrowl {
-
-bottom: 300px;
-right: 582px;
+bottom: 560px !important;
+right: 580px !important;
 }
 
 #footer{background:url(http://api.yhtheme.tk/images/topNav.png) repeat scroll 0 0 transparent; bottom:0; clear:both; color:#EEE; margin-top:42px; position:absolute; width:100%}
