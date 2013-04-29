@@ -79,7 +79,7 @@ left: 10px;
 width: 230px;
 }
 
-.form select{width:192px}
+.form select{display: none;}
 
 .form span.but{display:inline-block; left: 60px; position: relative;}
 
