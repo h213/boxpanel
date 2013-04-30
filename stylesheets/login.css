@@ -46,22 +46,23 @@ h1, h2, h3, h4, h5{font-weight:400; margin:0; padding:0}
 .fix{clear:both}
 
 .loginWrapper{
-background:none repeat scroll 0 0 #FFFFFF; 
-display:block; 
-left:50%; 
-position:fixed; 
-top:45%; 
-margin:-106px 0 0 -160px; 
+background: none repeat scroll 0 0 #FFFFFF;
 border: 1px solid #FFFFFF;
 border-radius: 4px 4px 4px 4px;
 box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+display: block;
+left: 50%;
+margin: -106px 0 0 -120px;
+position: fixed;
+top: 45%;
+width: 250px;
 }
 
 .loginLogo{display:block; height:44px; left:35%; margin-left:-95px; position:absolute; top:-35%; width:190px}
 
 .head{background:url(http://api.yhtheme.tk/images/leftNavBg.png) repeat-x scroll 0 0 #EFEFEF; border-radius:2px 2px 0 0; border-bottom:1px solid #D5D5D5; height:80px; position:relative}
 
-.form{background:url("http://api.yhtheme.tk//images/loginbg.png") no-repeat scroll 0 0 transparent; height:180px; overflow:auto; width:310px; margin:0}
+.form{background:url("http://api.yhtheme.tk//images/loginbg.png") no-repeat scroll 0 0 transparent; height:180px; width:auto; margin:0}
 
 .form .logo{height:58px; text-align:center; margin:23px auto 43px}
 
