@@ -62,7 +62,7 @@ width: 250px;
 
 .head{background:url(http://api.yhtheme.tk/images/leftNavBg.png) repeat-x scroll 0 0 #EFEFEF; border-radius:2px 2px 0 0; border-bottom:1px solid #D5D5D5; height:80px; position:relative}
 
-.form{background:url("http://api.yhtheme.tk//images/loginbg.png") no-repeat scroll 0 0 transparent; height:180px; width:auto; margin:0}
+.form{background:url("http://api.yhtheme.tk//images/loginbg.png") no-repeat scroll 0 0 transparent; height:180px; width:auto; top: 10px;}
 
 .form .logo{height:58px; text-align:center; margin:23px auto 43px}
 
@@ -77,8 +77,8 @@ width: 250px;
 .form input.txt{
 border-radius: 2px 2px 2px 2px;
 height: 25px;
-left: 10px;
-width: 230px;
+left: 15px;
+width: 160px;
 }
 
 .form select{display: none;}
