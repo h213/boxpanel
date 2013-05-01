@@ -276,7 +276,9 @@ bottom: 10px;
 .goog-te-gadget-icon {
 background-position: -65px 0;
 background-image: url("http://translate.googleapis.com/translate_static/img/te_ctrl3.gif");
-margin: 20px -5px 0 9px;
+}
+.goog-te-gadget img {
+margin: 20px -5px 0 9px !important;
 }
 .goog-te-gadget-simple {
 background-color: transparent !important;
