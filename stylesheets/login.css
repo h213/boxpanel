@@ -293,13 +293,18 @@ padding: 0 !important;
 
 }
 .goog-te-gadget-simple .goog-te-menu-value span {
+color: #EEEEEE !important;
+text-decoration: none;
+font-size: 11px;
+}
+.goog-te-gadget-simple .goog-te-menu-value span {
 border: none !important;
 text-decoration: none;
 }
 .goog-te-menu-value img {
     display: none !important;
 }
-element.style {
+.element.style {
     display: none !important;
 }
 
