@@ -271,7 +271,7 @@ border-style: none;
 display: none;
 }
 #google_translate_element {
-
+bottom: 10px;
 }
 .goog-te-gadget-icon {
 background-image: url("http://translate.googleapis.com/translate_static/img/te_ctrl3.gif") !important;
