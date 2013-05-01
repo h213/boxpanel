@@ -102,6 +102,7 @@ position: relative;
 text-decoration: none;
 text-shadow: 1px 1px 0 #FFFFFF;
 white-space: nowrap;
+right: 10px;
 }
 
 .form span.but button:hover {
@@ -269,3 +270,18 @@ border-style: none;
 .required  {
 display: none;
 }
+
+.goog-te-gadget-icon {
+background-image: url("http://translate.googleapis.com/translate_static/img/te_ctrl3.gif") !important;
+background-position: -65px 0;
+}
+.goog-te-gadget-simple {
+background-color: transparent !important;
+border-style: none !important;
+cursor: pointer;
+display: inline-block;
+font-size: 10pt;
+height: 30px !important;
+padding: 0 !important;
+}
+
