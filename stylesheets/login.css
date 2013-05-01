@@ -297,15 +297,21 @@ color: #EEEEEE !important;
 text-decoration: none;
 font-size: 11px;
 }
+.goog-te-menu-value img {
+display: none !important;
+}
+
 .goog-te-gadget-simple .goog-te-menu-value span {
-border: none !important;
+padding: 10px 4px !important;
 text-decoration: none;
+border: none !important;
 }
 .goog-te-menu-value img {
     display: none !important;
 }
-.element.style {
-    display: none !important;
+element.style {
+border-left: 1px solid #BBBBBB;
+display: none !important;
 }
 
 
