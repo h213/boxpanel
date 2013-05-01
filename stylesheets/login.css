@@ -292,6 +292,13 @@ padding: 0 !important;
 .goog-te-menu2-item {
 
 }
+.goog-te-gadget-simple .goog-te-menu-value span {
+border: none !important;
+text-decoration: none;
+}
+.goog-te-menu-value img {
+    display: none !important;
+}
 element.style {
     display: none !important;
 }
