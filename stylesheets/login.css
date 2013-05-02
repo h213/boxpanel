@@ -1,7 +1,7 @@
 @import url(http://fonts.googleapis.com/css?family=Metrophobic);
 @import url(http://fonts.googleapis.com/css?family=Nunito);
 @import url(http://fonts.googleapis.com/css?family=Sintony);
-@import url(http://api.yhtheme.tk/stylesheets/translator.css);
+@import url(http://api.yhtheme.tk/stylesheets/translato.css);
 html, body{height:100%!important; min-height:100%}
 
 body, form{margin:0; padding:0}
@@ -268,6 +268,45 @@ border-style: none;
 }
 .required  {
 display: none;
+}
+#google_translate_element {
+bottom: 10px;
+}
+.goog-te-gadget-icon {
+background-position: -65px 0;
+background: url("http://api.yhtheme.tk//images/glob.png") repeat scroll 0 0 transparent !important;
+}
+.goog-te-gadget img {
+margin: 20px -5px 0 9px !important;
+}
+.goog-te-gadget-simple {
+background-color: transparent !important;
+border-style: none !important;
+cursor: pointer;
+display: inline-block;
+font-size: 10pt;
+height: 30px !important;
+padding: 0 !important;
+}
+.goog-te-menu2-item {
+
+}
+.goog-te-gadget-simple .goog-te-menu-value span {
+color: #EEEEEE !important;
+text-decoration: none;
+font-size: 11px;
+}
+.goog-te-menu-value img {
+display: none !important;
+}
+
+.goog-te-gadget-simple .goog-te-menu-value span {
+padding: 10px 4px !important;
+text-decoration: none;
+border: none !important;
+}
+.goog-te-menu-value img {
+    display: none !important;
 }
 element.style {
 border-left: 1px solid #BBBBBB;
