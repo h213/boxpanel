@@ -159,7 +159,7 @@ right: 580px !important;
 
 .backTo a:hover, .userNav a:hover{background:none repeat scroll 0 0 #212121}
 
-.backTo span, .userNav span{display:block; float:left; padding:10px 14px 8px 8px}
+.backTo span, .userNav span{display:block; float:left; padding:10px 14px 0px 8px}
 
 .backTo img, .userNav img{display:block; float:left; margin:15px 0 0 14px}
 
