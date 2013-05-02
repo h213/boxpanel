@@ -300,6 +300,7 @@ font-size: 11px;
 display: none !important;
 }
 .goog-te-banner-frame.skiptranslate {display: none !important;} 
+body { top: 0px !important; }
 .goog-te-gadget-simple .goog-te-menu-value span {
 padding: 10px 4px !important;
 text-decoration: none;
